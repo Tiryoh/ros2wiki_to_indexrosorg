@@ -10,7 +10,7 @@ Search Page: [https://tiryoh.github.io/ros2wiki_to_indexrosorg/](https://tiryoh.
 
 (C) 2019 Tiryoh
 
-The files in doc directory in this repository is released under the MIT license, see [LICENSE](./LICENSE).  
+The files in docs directory in this repository is released under the MIT license, see [LICENSE](https://tiryoh.mit-license.org/2019-).  
 Unless attributed otherwise, all other files in this repository is licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ### Acknowledgements
