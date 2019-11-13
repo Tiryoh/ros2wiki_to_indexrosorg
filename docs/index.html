@@ -13,7 +13,7 @@
             var insert = '';
             $(csv).each(function() {
                 if (this[0][0] == 'h') {
-                insert += '<tr><td>' + this[0] + '</td><td><a href="' + this[1] + '">' + this[1] + '</a></td></tr>';
+                insert += '<tr><td>' + this[0] + '<' + '/td><td><a href="' + this[1] + '">' + this[1] + '<' + '/a><' + '/td><' + '/tr>';
                 }
             });
             $(target).append(insert);
@@ -42,7 +42,7 @@
                     if (targetText.indexOf(searchText) != -1) {
                     // 存在する場合はそのリストのテキストを用意した配列に格納
                         // searchResult.push(this);
-                        searchResult.push('<tr><td>' + this.cells[0].innerHTML + '</td><td>' + this.cells[1].innerHTML + '</td><tr>');
+                        searchResult.push('<tr><td>' + this.cells[0].innerHTML + '<' + '/td><td>' + this.cells[1].innerHTML + '<' + '/td><tr>');
                     }
                 });
 
@@ -52,7 +52,7 @@
                 }
 
                 // ヒットの件数をページに出力
-                hitNum = '<span>Search Result</span>： Found ' + searchResult.length + ' items in list';
+                hitNum = '<span>Search Result<' + '/span>： Found ' + searchResult.length + ' items in list';
                     $('.search-result__hit-num').append(hitNum);
                 }
             };
