@@ -12,8 +12,9 @@ The source of [index.ros.org](https://index.ros.org/doc/ros2/) is published here
 
 (C) 2019 Tiryoh
 
-The files in docs directory in this repository is released under the MIT license, see [LICENSE](https://tiryoh.mit-license.org/2019-).  
-Unless attributed otherwise, all other files in this repository is licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+The list, [`url.csv`](url.csv) is released under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Other files in this repository is released under the MIT license, see [LICENSE](https://tiryoh.mit-license.org/2019-).  
+
 
 ### Acknowledgements
 
