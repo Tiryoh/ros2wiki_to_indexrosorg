@@ -1,0 +1,27 @@
+name: URL test
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - "url.csv"
+      - ".github/workflows/**"
+  push:
+    branches:
+      - master
+    paths:
+      - "url.csv"
+      - ".github/workflows/**"
+  schedule:
+    - cron: "0 2 * * 0" # Weekly on Sundays at 02:00
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Test URL
+        run: |
+          ./test.sh
